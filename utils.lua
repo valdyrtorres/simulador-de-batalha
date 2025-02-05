@@ -49,7 +49,6 @@ function utils.getProgressBar(attribute)
         else
             result = result .. emptyChar
         end
-        -- result = result .. (i <= attribute and fullChar or emptyChar)
     end
     return result
 end
